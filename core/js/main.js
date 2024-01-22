@@ -314,21 +314,19 @@ function onScrollToTop () {
 
 document.addEventListener('DOMContentLoaded', function () {
   toggleLoadingMaskVisible(true);
-  includeHTML(function () {
-    triggerTargetSectionAnimation();
-    initialAppScrollEventListener();
-    initialAppWheelEventListener();
-    initialMarquee('cogitation-marquee', 3000);
-    initialMarquee('podcast-marquee', 5000);
-    initialMarquee('cherish-section-subsection-1-marquee', 3000);
-    initialMarquee('cherish-section-subsection-2-marquee', 3000);
-    initialMarquee('cherish-section-subsection-3-marquee', 3000);
-    initialMarquee('cherish-section-subsection-4-marquee', 3000);
-    initialCherishSection1stSubSectionMediaGallery();
-    initialCherishSection2ndSubSectionMediaGallery();
-    initialCherishSection3rdSubSectionMediaGallery();
-    initialCherishSection4thSubSectionMediaGallery();
-  });
+  triggerTargetSectionAnimation();
+  initialAppScrollEventListener();
+  initialAppWheelEventListener();
+  initialMarquee('cogitation-marquee', 3000);
+  initialMarquee('podcast-marquee', 5000);
+  initialMarquee('cherish-section-subsection-1-marquee', 3000);
+  initialMarquee('cherish-section-subsection-2-marquee', 3000);
+  initialMarquee('cherish-section-subsection-3-marquee', 3000);
+  initialMarquee('cherish-section-subsection-4-marquee', 3000);
+  initialCherishSection1stSubSectionMediaGallery();
+  initialCherishSection2ndSubSectionMediaGallery();
+  initialCherishSection3rdSubSectionMediaGallery();
+  initialCherishSection4thSubSectionMediaGallery();
 });
 
 window.addEventListener('load', function () {
