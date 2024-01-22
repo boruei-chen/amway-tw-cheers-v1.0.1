@@ -313,7 +313,6 @@ function onScrollToTop () {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  toggleLoadingMaskVisible(true);
   triggerTargetSectionAnimation();
   initialAppScrollEventListener();
   initialAppWheelEventListener();
