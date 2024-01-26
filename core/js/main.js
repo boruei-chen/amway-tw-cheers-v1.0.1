@@ -87,12 +87,19 @@ function initialCherishSection4thSubSectionMediaGallery () {
 }
 
 function toggleLoadingMaskVisible (visible) {
+  const bodyElem = document.querySelector('body');
   const loadingMaskElem = document.querySelector('.loading-mask');
-  if (visible) {
-    loadingMaskElem.classList.add('loading-mask--active');
-  } else {
-    loadingMaskElem.classList.add('loading-mask--anim');
-    setTimeout(() => { loadingMaskElem.classList.remove('loading-mask--active'); }, 1500);
+  if (bodyElem && loadingMaskElem) {
+    if (visible) {
+      bodyElem.classList.add('scroll-lockup');
+      loadingMaskElem.classList.add('loading-mask--active');
+    } else {
+      loadingMaskElem.classList.add('loading-mask--anim');
+      setTimeout(() => {
+        bodyElem.classList.remove('scroll-lockup');
+        loadingMaskElem.classList.remove('loading-mask--active');
+      }, 1500);
+    }
   }
 }
 
