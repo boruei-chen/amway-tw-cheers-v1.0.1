@@ -168,14 +168,14 @@ function triggerTargetSectionAnimation () {
   if (previewedSectionNameList.includes('cogitation')) {
     const titleElem = document.querySelector('.cogitation__title');
     const titleElemTopPos = titleElem.getBoundingClientRect().top + window.scrollY;
-    const descElems = document.querySelectorAll('.cogitation__scope-content p');
+    const descElems = document.querySelectorAll('.cogitation__scope-desc');
     if (windowBottomPos >= titleElemTopPos && !titleElem.classList.contains('cogitation__title--active')) {
       titleElem.classList.add('cogitation__title--active');
     }
     Array.from(descElems).forEach((elem) => {
       const elemTopPos = elem.getBoundingClientRect().top + window.scrollY;
-      if (windowBottomPos >= elemTopPos && !elem.parentNode.classList.contains('cogitation__scope-content--active')) {
-        elem.parentNode.classList.add('cogitation__scope-content--active');
+      if (windowBottomPos >= elemTopPos && !elem.classList.contains('cogitation__scope-desc--active')) {
+        elem.classList.add('cogitation__scope-desc--active');
       }
     });
   }
@@ -184,17 +184,12 @@ function triggerTargetSectionAnimation () {
     const titleElemTopPos = titleElem.getBoundingClientRect().top + window.scrollY;
     const descElem = document.querySelector('.join__desc');
     const descElemTopPos = descElem.getBoundingClientRect().top + window.scrollY;
-    const mobileDescElem = document.querySelector('.join__mobile-desc');
-    const mobileDescElemTopPos = mobileDescElem.getBoundingClientRect().top + window.scrollY;
     const mediaItemElems = document.querySelectorAll('.join__media-item');
     if (windowBottomPos >= titleElemTopPos && !titleElem.classList.contains('join__title--active')) {
       titleElem.classList.add('join__title--active');
     }
     if (windowBottomPos >= descElemTopPos && !descElem.classList.contains('join__desc--active')) {
       descElem.classList.add('join__desc--active');
-    }
-    if (windowBottomPos >= mobileDescElemTopPos && !mobileDescElem.classList.contains('join__mobile-desc--active')) {
-      mobileDescElem.classList.add('join__mobile-desc--active');
     }
     Array.from(mediaItemElems).forEach((elem) => {
       const elemTopPos = elem.getBoundingClientRect().top + window.scrollY;
