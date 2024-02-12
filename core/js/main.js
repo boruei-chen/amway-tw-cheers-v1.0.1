@@ -71,19 +71,11 @@ function initialCherishSection2ndSubSectionMediaGallery () {
 
 function initialCherishSection3rdSubSectionMediaGallery () {
   const mediaInfoList = [
-    { desc: '中年轉職：５個關鍵思維，幫你提高職場身價', url: 'https://www.cheers.com.tw/article/article.action?id=5101197' },
-    { desc: '退休時太太過世，連水餃都不會煮！７９歲前外商主管李益恭：白領如何找新工作？販賣２０％的專業就好', url: 'https://www.cw.com.tw/aging/article/5126920' }
-  ];
-  initialCherishSectionMediaGallery(2, 'cherish-section-subsection-3-media-gallery', mediaInfoList);
-}
-
-function initialCherishSection4thSubSectionMediaGallery () {
-  const mediaInfoList = [
     { desc: '工作與自由可兼得？開創「斜槓」人生必備的４大能力', url: 'https://www.cheers.com.tw/article/article.action?id=5101445' },
     { desc: '彈性多元選擇 安麗提供新世代展現的舞台！', url: 'https://www.cw.com.tw/article/5121856' },
     { desc: '數位支持 助你成功創業、持續成長', url: 'https://web.amway.com.tw/business/business-tools/?utm_source=OFFICIAL_SITE&utm_medium=bo_index_intro&utm_content=tool' }
   ];
-  initialCherishSectionMediaGallery(3, 'cherish-section-subsection-4-media-gallery', mediaInfoList);
+  initialCherishSectionMediaGallery(2, 'cherish-section-subsection-3-media-gallery', mediaInfoList);
 }
 
 function toggleLoadingMaskVisible (visible) {
@@ -323,11 +315,9 @@ document.addEventListener('DOMContentLoaded', function () {
   initialMarquee('cherish-section-subsection-1-marquee', 3000);
   initialMarquee('cherish-section-subsection-2-marquee', 3000);
   initialMarquee('cherish-section-subsection-3-marquee', 3000);
-  initialMarquee('cherish-section-subsection-4-marquee', 3000);
   initialCherishSection1stSubSectionMediaGallery();
   initialCherishSection2ndSubSectionMediaGallery();
   initialCherishSection3rdSubSectionMediaGallery();
-  initialCherishSection4thSubSectionMediaGallery();
 });
 
 window.addEventListener('load', function () {
