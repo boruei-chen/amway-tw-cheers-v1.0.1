@@ -1756,6 +1756,7 @@ html {
       width: 100%; } }
 
 #main-page .podcast {
+  background-color: #FFF1E8;
   overflow: hidden;
   position: relative;
   z-index: 1; }
