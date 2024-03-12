@@ -217,7 +217,7 @@ html {
       content: '';
       width: 50px;
       height: 54.47px;
-      background-image: url(../../../../src/assets/images/main-page-main-section-title-tip.png);
+      background-image: url(../images/main-page-main-section-title-tip.png);
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
@@ -269,7 +269,7 @@ html {
     content: '';
     width: 15px;
     height: 15px;
-    background-image: url(../../../../src/assets/images/icon-arrow-left.png);
+    background-image: url(../images/icon-arrow-left.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat; }
@@ -278,7 +278,7 @@ html {
     background-color: #FFF1E8; }
     .gallery .swiper-button-prev:hover::after,
     .gallery .swiper-button-next:hover::after {
-      background-image: url(../../../../src/assets/images/icon-arrow-left-active.png); }
+      background-image: url(../images/icon-arrow-left-active.png); }
 
 .gallery .swiper-button-prev {
   left: 2.5%; }
@@ -388,7 +388,7 @@ html {
     width: 24px;
     height: 20px;
     background-color: transparent;
-    background-image: url(../../../../../src/assets/images/icon-burger.png);
+    background-image: url(../images/icon-burger.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -399,7 +399,7 @@ html {
     width: 18px;
     height: 18px;
     background-color: transparent;
-    background-image: url(../../../../../src/assets/images/icon-dark-cross.png);
+    background-image: url(../images/icon-dark-cross.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -413,7 +413,7 @@ html {
       content: '';
       width: 450px;
       height: 414px;
-      background-image: url(../../../../../src/assets/images/mobile-menu-bg-organic-shape.png);
+      background-image: url(../images/mobile-menu-bg-organic-shape.png);
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
@@ -504,7 +504,7 @@ html {
   width: 100%;
   height: 100%;
   background-color: #FDFFA5;
-  background-image: url(../../../../../src/assets/images/illus-potted-plant.png);
+  background-image: url(../images/illus-potted-plant.png);
   background-size: 159px 319px;
   background-position: right -2.5rem bottom 1.25rem;
   background-repeat: no-repeat;
@@ -541,7 +541,7 @@ html {
         content: '';
         width: 15px;
         height: 15px;
-        background-image: url(../../../../../src/assets/images/icon-light-cross.png);
+        background-image: url(../images/icon-light-cross.png);
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat; }
@@ -586,7 +586,7 @@ html {
     width: 1080px;
     height: 605px;
     background-color: #FFFFA5;
-    background-image: url(../../../../../src/assets/images/illus-potted-plant.png);
+    background-image: url(../images/illus-potted-plant.png);
     background-size: 159px;
     background-position: right -2.5rem bottom 2.5rem;
     background-repeat: no-repeat;
@@ -621,7 +621,7 @@ html {
         content: '';
         width: 15px;
         height: 15px;
-        background-image: url(../../../../../src/assets/images/icon-light-cross.png);
+        background-image: url(../images/icon-light-cross.png);
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat; }
@@ -694,7 +694,7 @@ html {
     content: '';
     width: 19.8px;
     height: 25.59px;
-    background-image: url(../../../../src/assets/images/icon-arrow-top.png);
+    background-image: url(../images/icon-arrow-top.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat; }
@@ -733,7 +733,7 @@ html {
       width: 3.57%;
       height: 0;
       padding-bottom: 3.92%;
-      background-image: url(../../../../src/assets/images/main-page-main-section-title-tip.png);
+      background-image: url(../images/main-page-main-section-title-tip.png);
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
@@ -789,7 +789,7 @@ html {
       width: 84.2%;
       height: 0;
       padding-bottom: 50.28%;
-      background-image: url(../../../../src/assets/images/main-page-main-section-bg-organic-shape.png);
+      background-image: url(../images/main-page-main-section-bg-organic-shape.png);
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
@@ -964,7 +964,7 @@ html {
         width: 38.92%;
         height: 0;
         padding-bottom: 38.18%;
-        background-image: url(../../../../src/assets/images/main-page-cogitation-section-scope-1-bg-organic-shape.png);
+        background-image: url(../images/main-page-cogitation-section-scope-1-bg-organic-shape.png);
         top: -4%;
         left: 1%;
         animation: cogitationSlightDisplacingStyle1st 15s linear infinite alternate; }
@@ -995,7 +995,7 @@ html {
         width: 40.17%;
         height: 0;
         padding-bottom: 36.98%;
-        background-image: url(../../../../src/assets/images/main-page-cogitation-section-scope-2-bg-organic-shape.png);
+        background-image: url(../images/main-page-cogitation-section-scope-2-bg-organic-shape.png);
         top: -11%;
         right: -6%;
         animation: cogitationSlightDisplacingStyle2nd 15s linear infinite alternate; }
@@ -1256,7 +1256,7 @@ html {
       width: 69.77%;
       height: 0;
       padding-bottom: 39.48%;
-      background-image: url(../../../../src/assets/images/main-page-join-section-illus-anim-bg-organic-shape.png);
+      background-image: url(../images/main-page-join-section-illus-anim-bg-organic-shape.png);
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
@@ -1318,7 +1318,7 @@ html {
       content: '';
       width: 100%;
       height: 100%;
-      background-image: url(../../../../src/assets/images/main-page-join-section-media-shadow.png);
+      background-image: url(../images/main-page-join-section-media-shadow.png);
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
@@ -1482,7 +1482,7 @@ html {
       width: 233.6%;
       height: 0;
       padding-bottom: 192.8%;
-      background-image: url(../../../../src/assets/images/main-page-cherish-section-subsection-1-bg-organic-shape.png);
+      background-image: url(../images/main-page-cherish-section-subsection-1-bg-organic-shape.png);
       top: 0;
       left: 0;
       transform: translate(-29.5%, -28%); }
@@ -1496,7 +1496,7 @@ html {
       width: 261.44%;
       height: 0;
       padding-bottom: 194.08%;
-      background-image: url(../../../../src/assets/images/main-page-cherish-section-subsection-2-bg-organic-shape.png);
+      background-image: url(../images/main-page-cherish-section-subsection-2-bg-organic-shape.png);
       right: 0;
       bottom: 0;
       transform: translate(43%, 39.5%); }
@@ -1509,7 +1509,7 @@ html {
     #main-page .cherish__section:nth-child(3) .cherish__scope:first-child::after {
       width: 984.71px;
       height: 655.36px;
-      background-image: url(../../../../src/assets/images/main-page-cherish-section-subsection-3-bg-organic-shape.png);
+      background-image: url(../images/main-page-cherish-section-subsection-3-bg-organic-shape.png);
       top: 0;
       left: 0;
       transform: translate(-34.5%, -21%); }
@@ -1586,7 +1586,7 @@ html {
       content: '';
       width: 100%;
       height: 100%;
-      background-image: url(../../../../src/assets/images/main-page-cherish-section-media-cover-shadow.png);
+      background-image: url(../images/main-page-cherish-section-media-cover-shadow.png);
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
@@ -1838,13 +1838,13 @@ html {
         #main-page .podcast__desc p:nth-child(1)::before {
           width: 20px;
           height: 13.1px;
-          background-image: url(../../../../src/assets/images/icon-quotation-marks-up.png);
+          background-image: url(../images/icon-quotation-marks-up.png);
           left: 0;
           transform: translate(calc(-100% - 7px), 0); }
         #main-page .podcast__desc p:nth-child(1)::after {
           width: 17px;
           height: 12.01px;
-          background-image: url(../../../../src/assets/images/icon-quotation-marks-down.png);
+          background-image: url(../images/icon-quotation-marks-down.png);
           right: 0;
           transform: translate(calc(100% + 7px), 0); }
       #main-page .podcast__desc p:nth-child(2) {
@@ -1897,7 +1897,7 @@ html {
       content: '';
       width: 100%;
       height: 100%;
-      background-image: url(../../../../src/assets/images/main-page-podcast-section-media-shadow.png);
+      background-image: url(../images/main-page-podcast-section-media-shadow.png);
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
@@ -1956,7 +1956,7 @@ html {
     width: 81.3%;
     height: 0;
     padding-bottom: 54.14%;
-    background-image: url(../../../../src/assets/images/main-page-podcast-section-bg-organic-shape-1.png);
+    background-image: url(../images/main-page-podcast-section-bg-organic-shape-1.png);
     bottom: -55%;
     left: -22%;
     animation: podcastSlightDisplacingStyle1st 15s linear infinite alternate; }
@@ -1976,7 +1976,7 @@ html {
     width: 83.4%;
     height: 0;
     padding-bottom: 55.51%;
-    background-image: url(../../../../src/assets/images/main-page-podcast-section-bg-organic-shape-2.png);
+    background-image: url(../images/main-page-podcast-section-bg-organic-shape-2.png);
     top: -26%;
     right: -45.35%;
     animation: podcastSlightDisplacingStyle2nd 15s linear infinite alternate; }
@@ -2071,7 +2071,7 @@ html {
     content: '';
     width: 200px;
     height: 184.5px;
-    background-image: url(../../../../src/assets/images/material-ear.png);
+    background-image: url(../images/material-ear.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -2091,9 +2091,9 @@ html {
     left: calc(1.563% + (.625rem * 2));
     z-index: -1; }
   #main-page .podcast__mtrl-spotlight::before {
-    background-image: url(../../../../src/assets/images/material-spotlight-device.png); }
+    background-image: url(../images/material-spotlight-device.png); }
   #main-page .podcast__mtrl-spotlight::after {
-    background-image: url(../../../../src/assets/images/material-spotlight.png);
+    background-image: url(../images/material-spotlight.png);
     animation: flashing 2.5s infinite ease; }
 
 @keyframes flashing {
